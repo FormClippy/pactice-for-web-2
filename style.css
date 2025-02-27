@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+nav{
+  background: url('https://images.unsplash.com/photo-1592205644721-2fe5214762ae?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-position:center;
+  background-size: cover;
+  height: 700px;
+}
+
+.nav-con{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.nav-logo span{
+  color: #5A6520;
+  font-size: 3rem;
+}
+
+.nav-logo i{
+  font-size: 3rem;
+  background-color: #5A6520;
+  border-radius: 100%;
+  color: #fff;
+}
+
+ul{
+  display: flex;
+  list-style: none;
+}
+
+li a{
+  text-decoration: none;
+  font-size: 1rem;
+  color: #fff;
+  padding: .4rem 1rem;
+  border-radius: 20px;
+}
+
+li a:hover{
+  background-color: #5A6520; 
+}
+
+.header{
+  margin-top: 10rem;
+  text-align: center;
+}
+
+.header-info h1{
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+.header-info a{
+  display: inline-block;
+  margin-top: 3rem;
+  text-decoration: none;
+  padding: .5rem 1rem;
+  border-radius: 20px;
+  width: 140px;
+  background-color: #fff;
+  color: #5A6520;
+}
+
+.section-pic img{
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.products-info{
+  padding: 5rem;
+}
+
+.products-info h2{
+  color: #5A6520;
+  margin-bottom: 1rem;
+}
+
+.products-info p{
+  color: #5A6520;
+  width: 550px;
+}
+
+.products-info a{
+  text-align: center;
+  display: inline-block;
+  margin-top: 1rem;
+  text-decoration: none;
+  padding: .5rem 1rem;
+  border-radius: 20px;
+  width: 140px;
+  background-color: #5A6520;
+  color: #fff;
+}
+
+.products{
+  display: flex;
+  justify-content: space-between;
+}
+
+.products-pic img{
+  height: 400px;
+}
+
+.title-grid h1{
+  text-align: center;
+  color: #5A6520;
+  font-weight: lighter;
+  font-size: 1.5rem;
+}
+
+.items-pro{
+  padding: 2rem 0;
+}
+.products-grid{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+
+.products-items{
+
+  padding: 1rem;
+}
+
+.products-items img{
+  height: 250px;
+  margin-bottom: 1rem;
+}
+
+.products-items p:nth-child(2) {
+  color: #5A6520;
+}
+.products-items p:nth-child(3) {
+  color: #5A6520;
+  margin-top: .5rem;
+  font-weight:bold;
+}
